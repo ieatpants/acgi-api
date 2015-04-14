@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<registrations>
+	<registration><!-- can repeat -->
+		<regi-serno></regi-serno>
+		<customer-id></customer-id>
+		<event-id></event-id>
+		<registration-date></registration-date><!-- MM/DD/YYYY -->
+		<registration-type></registration-type> 
+		<registration-name></registration-name>
+		<representing></representing>
+		<billto-id></billto-id> 
+		<promo-cd></promo-cd>
+		<purchase-order></purchase-order> 
+		<prim-item-id></prim-item-id>
+		<prim-reg-status></prim-reg-status>
+		<total-charges></total-charges>
+		<total-payment></total-payment>
+		<balance></balance>
+		<event-nm>A Real Event</event-nm>
+		<program-nm>Life Sciences Discussion Group</program-nm>
+		<primary-item-descr></primary-item-descr>
+		<event-start-dt></event-start-dt>
+		<event-end-dt></event-end-dt> 
+		<location-name>NYAS</location-name>
+		<location-street1></location-street1>
+		<location-street2></location-street2>
+		<location-city></location-city>
+		<location-state></location-state>
+		<location-zip></location-zip>
+		<location-country></location-country>
+		<location-country-descr></location-country-descr>				
+		<first-name></first-name>
+		<last-name></last-name>
+		<company-name></company-name>
+		<email></email>
+		<evt-reg-street1></evt-reg-street1>
+		<evt-reg-street2></evt-reg-street2>
+		<evt-reg-street3></evt-reg-street3>
+		<evt-reg-city></evt-reg-city>
+		<evt-reg-state></evt-reg-state>
+		<evt-reg-zip></evt-reg-zip>
+		<evt-reg-country></evt-reg-country>
+		<items>
+			  <item><!-- can repeat -->
+						<id></id>
+						<descr></descr>
+						<registration-type></registration-type>
+						<registration-status></registration-status>
+						<registration-date></registration-date>
+						<attended></attended><!-- Y/N/Null -->
+			  </item>
+		</items>
+		<guests> 
+			<guest><!-- can repeat -->
+				 <firstNm></firstNm> 
+				 <middleNm></middleNm> 
+				 <lastNm></lastNm> 
+			</guest> 
+		</guests> 
+	</registration>
+	<status>SUCCESS or FAILURE</status>
+	<message>Element will not appear if status = SUCCESS</message>
+</registrations>
