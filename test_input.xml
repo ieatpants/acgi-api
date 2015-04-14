@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<eventreg-request>
+		<vendor-id></vendor-id>
+		<vendor-password></vendor-password>
+		<cust-id>1215160</cust-id><!-- Optional, but should not be null if event-id is null -->
+		<event-id></event-id><!-- Optional, but should not be null if cust-id is null -->
+		<first-name></first-name><!-- Optional, used as an alternate lookup parameter -->
+		<last-name></last-name><!-- Optional, used as an alternate lookup parameter -->
+		<company-name></company-name><!-- Optional, used as an alternate lookup parameter -->
+		<email></email><!-- Optional, used as an alternate lookup parameter -->
+		<secondaries-require-ticket></secondaries-require-ticket><!-- Optional boolean input. Further explanation below -->
+	</eventreg-request>
